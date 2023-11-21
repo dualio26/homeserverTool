@@ -1,15 +1,76 @@
-.wrapper{
- width: 100vw;
+/* Title Font Varients */
+
+@font-face {
+  font-family: JoseFinSans;
+  src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
 }
 
-.banner{
- width: 100vw;
+@font-face {
+  font-family: Kanit;
+  src: url(../fonts/Kanit/Kanit-Bold.ttf);
 }
 
-.menu{
-    width: 30vw;
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
-.displayCase{
-    width: 70vw;
+/* Content Font Varients */
+
+
+
+
+
+/* Main Wrapper */
+.wrapper {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Montserrat;
+}
+
+/* Stlying relating to banner and child elements */
+.banner {
+  width: 100%;
+}
+
+.banner h1 {
+  text-align: center;
+}
+
+/* Styling relating to interactive part of website */
+
+.interface {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 100%;
+}
+
+/* Nav/Menu Styling */
+
+.menu {
+  text-align: center;
+  display: grid;
+  color: blue;
+  margin-right: 0;
+}
+
+/* Nav/Menu List */
+
+.menuList ul{
+  width: 60%;
+  text-align: left;
+}
+
+.menuList ul li{
+  font-size: larger;
+  list-style-type: none;
+}
+
+/* Displayed Content Styling */
+
+.displayCase {
+  color: pink;
 }
